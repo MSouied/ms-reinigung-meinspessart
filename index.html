@@ -1,124 +1,131 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MS Reinigung Mainspessart</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
-      color: #333;
+      font-family: 'Inter', sans-serif;
+      background: #f4f8fb;
+      color: #1a1a1a;
     }
     header {
-      text-align: center;
-      padding: 50px 20px;
-      background: linear-gradient(to right, #00acc1, #26c6da);
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
       color: white;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    h2 {
-      margin-top: 40px;
       text-align: center;
-      color: #00796b;
+      padding: 4rem 2rem 2rem;
     }
-    .leistungen {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-      padding: 40px 20px;
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .section {
       max-width: 1200px;
       margin: auto;
+      padding: 3rem 2rem;
     }
-    .leistung {
-      background: white;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    .section h2 {
       text-align: center;
-      padding: 20px;
+      color: #0077b6;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+      text-align: center;
       transition: transform 0.3s;
     }
-    .leistung:hover {
-      transform: scale(1.03);
+    .card:hover {
+      transform: translateY(-5px);
     }
-    .leistung img {
-      width: 100px;
-      height: auto;
-      margin-bottom: 15px;
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
     }
-    .kontakt {
+    .cta {
       text-align: center;
-      padding: 30px;
+      margin-top: 3rem;
     }
-    .kontakt a {
-      background: #25d366;
+    .cta a {
+      background: #009688;
       color: white;
-      text-decoration: none;
-      padding: 15px 25px;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
       border-radius: 30px;
-      font-weight: bold;
-      display: inline-block;
-      margin-top: 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #00796b;
     }
     footer {
-      background: #004d40;
+      background: #003049;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
     }
     footer a {
-      color: #80deea;
+      color: #90e0ef;
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>MS Reinigung Mainspessart</h1>
-    <p>Professionelle Reinigungsdienste mit Herz und Qualität</p>
+    <p>Innovative Gebäudereinigung mit Fokus auf Qualität, Effizienz und Vertrauen</p>
   </header>
 
-  <h2>Unsere Leistungen</h2>
-  <section class="leistungen">
-    <div class="leistung">
-      <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" alt="Wohnung">
-      <h3>Wohnungsreinigung</h3>
-      <p>Gründliche Reinigung für Ihre Wohnung oder Ihr Zuhause.</p>
+  <section class="section">
+    <h2>Unsere Dienstleistungen</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="Wohnungsreinigung">
+        <h3>Wohnungsreinigung</h3>
+        <p>Gründliche und zuverlässige Reinigung für private Haushalte.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1581579185169-8b9fc1ef0c5f" alt="Büroreinigung">
+        <h3>Büro- & Praxisreinigung</h3>
+        <p>Sauberkeit für produktive Arbeitsumgebungen und Kundenbereiche.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1598478755211-13dfae668b5f" alt="Fensterreinigung">
+        <h3>Fensterreinigung</h3>
+        <p>Streifenfreie Sauberkeit für Fenster, Glasflächen und Fassaden.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1620912189862-f44ef81c3ff2" alt="Bauendreinigung">
+        <h3>Bauendreinigung</h3>
+        <p>Gründliche Nachreinigung nach Umbau-, Neubau- oder Sanierungsarbeiten.</p>
+      </div>
     </div>
-    <div class="leistung">
-      <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="Büro">
-      <h3>Büro- & Praxisreinigung</h3>
-      <p>Saubere Arbeitsumgebung für konzentriertes Arbeiten.</p>
+    <div class="cta">
+      <a href="https://wa.me/491781766657" target="_blank">Jetzt per WhatsApp kontaktieren</a>
     </div>
-    <div class="leistung">
-      <img src="https://media.giphy.com/media/3ohc1fHhDOWQ4Oa3aE/giphy.gif" alt="Fenster">
-      <h3>Fensterreinigung</h3>
-      <p>Kristallklare Fenster für den besten Ausblick.</p>
-    </div>
-    <div class="leistung">
-      <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" alt="Bau">
-      <h3>Bauendreinigung</h3>
-      <p>Perfekter Abschluss für Ihre Baustelle oder Renovierung.</p>
-    </div>
-  </section>
-
-  <section class="kontakt">
-    <h2>Kontaktieren Sie uns direkt</h2>
-    <p>Klicken Sie unten, um mit uns über WhatsApp zu sprechen:</p>
-    <a href="https://wa.me/491781766657" target="_blank">Jetzt per WhatsApp kontaktieren</a>
   </section>
 
   <footer>
-    © 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten<br>
+    &copy; 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten<br />
     Kontakt: <a href="mailto:xfire80@hotmail.com">xfire80@hotmail.com</a>
   </footer>
-
 </body>
 </html>
