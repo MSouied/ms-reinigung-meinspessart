@@ -1,131 +1,101 @@
-<!DOCTYPE html>
-<html lang="de">
+<!DOCTYPE html><html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MS Reinigung Mainspessart</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Inter', sans-serif;
-      background: #f4f8fb;
-      color: #1a1a1a;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f7fbfd;
+      color: #222;
     }
     header {
-      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      background: linear-gradient(to right, #0f95c4, #00c6a7);
       color: white;
+      padding: 40px 20px;
       text-align: center;
-      padding: 4rem 2rem 2rem;
     }
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 0.5rem;
+    h1 {
+      font-size: 36px;
+      margin: 0;
     }
-    header p {
-      font-size: 1.2rem;
+    h2 {
+      font-size: 24px;
+      margin-top: 10px;
     }
-    .section {
-      max-width: 1200px;
-      margin: auto;
-      padding: 3rem 2rem;
-    }
-    .section h2 {
+    section {
+      padding: 40px 20px;
       text-align: center;
-      color: #0077b6;
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
     }
     .card {
       background: white;
-      border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.05);
-      text-align: center;
-      transition: transform 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 500px;
+      padding: 20px;
     }
     .card img {
       width: 100%;
-      height: 160px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 1rem;
+      border-radius: 12px;
     }
-    .cta {
-      text-align: center;
-      margin-top: 3rem;
-    }
-    .cta a {
-      background: #009688;
+    .whatsapp {
+      display: inline-block;
+      background: #25d366;
       color: white;
-      padding: 1rem 2rem;
-      font-size: 1.1rem;
+      padding: 12px 20px;
       border-radius: 30px;
+      font-weight: bold;
       text-decoration: none;
-      transition: background 0.3s;
+      margin: 30px auto 10px;
+      transition: background 0.3s ease;
     }
-    .cta a:hover {
-      background: #00796b;
+    .whatsapp:hover {
+      background: #1ebd5a;
     }
     footer {
-      background: #003049;
+      background: #003d5c;
       color: white;
       text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-    }
-    footer a {
-      color: #90e0ef;
-      text-decoration: underline;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>MS Reinigung Mainspessart</h1>
-    <p>Innovative Gebäudereinigung mit Fokus auf Qualität, Effizienz und Vertrauen</p>
-  </header>
+    <h2>Innovative Gebäudereinigung mit Herz und Qualität</h2>
+  </header>  <section>
+    <h2>Unsere Dienstleistungen</h2><div class="card">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2UxcGcwN3diZDB2bWI2c3kycTd0Ynh6ZWdpNzZuaHh2czBqNWljayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Y4XcCxU3PCadWdQ1TL/giphy.gif" alt="Wohnungsreinigung" />
+  <h3>Wohnungsreinigung</h3>
+  <p>Gründliche und zuverlässige Reinigung für private Haushalte.</p>
+</div>
 
-  <section class="section">
-    <h2>Unsere Dienstleistungen</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="Wohnungsreinigung">
-        <h3>Wohnungsreinigung</h3>
-        <p>Gründliche und zuverlässige Reinigung für private Haushalte.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1581579185169-8b9fc1ef0c5f" alt="Büroreinigung">
-        <h3>Büro- & Praxisreinigung</h3>
-        <p>Sauberkeit für produktive Arbeitsumgebungen und Kundenbereiche.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1598478755211-13dfae668b5f" alt="Fensterreinigung">
-        <h3>Fensterreinigung</h3>
-        <p>Streifenfreie Sauberkeit für Fenster, Glasflächen und Fassaden.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1620912189862-f44ef81c3ff2" alt="Bauendreinigung">
-        <h3>Bauendreinigung</h3>
-        <p>Gründliche Nachreinigung nach Umbau-, Neubau- oder Sanierungsarbeiten.</p>
-      </div>
-    </div>
-    <div class="cta">
-      <a href="https://wa.me/491781766657" target="_blank">Jetzt per WhatsApp kontaktieren</a>
-    </div>
-  </section>
+<div class="card">
+  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Büroreinigung" />
+  <h3>Büro- & Praxisreinigung</h3>
+  <p>Sauberkeit für produktive Arbeitsumgebungen und Kundenbereiche.</p>
+</div>
 
-  <footer>
-    &copy; 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten<br />
-    Kontakt: <a href="mailto:xfire80@hotmail.com">xfire80@hotmail.com</a>
+<div class="card">
+  <img src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif" alt="Fensterreinigung" />
+  <h3>Fensterreinigung</h3>
+  <p>Streifenfreie Sauberkeit für Fenster, Glasflächen und Fassaden.</p>
+</div>
+
+<div class="card">
+  <img src="https://media.giphy.com/media/iJd4AO8MiT9hI/giphy.gif" alt="Bauendreinigung" />
+  <h3>Bauendreinigung</h3>
+  <p>Gründliche Nachreinigung nach Umbau-, Neubau- oder Sanierungsarbeiten.</p>
+</div>
+
+<a class="whatsapp" href="https://wa.me/491781766657" target="_blank">Jetzt per WhatsApp kontaktieren</a>
+
+  </section>  <footer>
+    <p>&copy; 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten</p>
+    <p>Kontakt: <a href="mailto:xfire80@hotmail.com" style="color: #00c6a7;">xfire80@hotmail.com</a></p>
   </footer>
 </body>
 </html>
