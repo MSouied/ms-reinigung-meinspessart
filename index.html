@@ -19,11 +19,15 @@
     }
 
     header img {
-      width: 180px;
-      margin-top: 1rem;
+      width: 220px;
+      border-radius: 25px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
       margin-bottom: 1.5rem;
-      border-radius: 16px;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    header img:hover {
+      transform: scale(1.05);
     }
 
     header h1 {
@@ -56,12 +60,7 @@
       border-radius: 20px;
       padding: 1.5rem;
       margin-bottom: 2rem;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
     .card video {
@@ -112,6 +111,7 @@
   </style>
 </head>
 <body>
+
   <header>
     <img src="logo-ms.gif.png" alt="MS Reinigung Logo" />
     <h1>MS Reinigung Mainspessart</h1>
@@ -154,5 +154,6 @@
     <p>© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten</p>
     <p>Kontakt: <a href="mailto:xfire80@hotmail.com">xfire80@hotmail.com</a></p>
   </footer>
+
 </body>
 </html>
