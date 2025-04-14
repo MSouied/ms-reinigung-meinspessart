@@ -19,7 +19,7 @@
       color: white;
       padding: 2rem 1rem;
       text-align: center;
-      background-image: url('https://source.unsplash.com/1600x400/?cleaning');
+      background-image: url('https://images.unsplash.com/photo-1600880291929-90a7e086ee5a');
       background-size: cover;
       background-position: center;
     }
@@ -63,38 +63,72 @@
     .whatsapp-button:hover {
       background-color: #1ebf5b;
     }
+    .logo {
+      max-width: 150px;
+      margin: 1rem auto;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: 1rem auto;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button[type="submit"] {
+      background-color: #2c3e50;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background-color: #1a252f;
+    }
   </style>
 </head>
 <body>
   <header>
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/512/9351/9351965.png" alt="MS Logo">
     <h1>MS Gebäudereinigung Main-Spessart</h1>
     <p>Ihr neuer Partner für Sauberkeit, Vertrauen & Flexibilität</p>
   </header>  <section>
     <h2>Über uns</h2>
-    <p>ms-reinigung-meinspessart ist ein neu gegründetes, familiengeführtes Reinigungsunternehmen aus dem Landkreis Main-Spessart. Als motiviertes Team stehen wir für Sauberkeit, Zuverlässigkeit und persönliche Betreuung – von Anfang an.</p>
-    <p>Auch wenn wir noch neu auf dem Markt sind, bringen wir Engagement, Sorgfalt und ein hohes Verantwortungsbewusstsein in jede Aufgabe ein. Für uns steht nicht nur die Reinigung im Mittelpunkt, sondern auch das Vertrauen und die Zufriedenheit unserer zukünftigen Kunden.</p>
-    <p>Wir freuen uns darauf, Ihnen unseren Service unter Beweis zu stellen – professionell, herzlich und flexibel.</p>
+    <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92c67" alt="Über uns" width="100%" style="border-radius: 12px;">
+    <p>ms-reinigung-meinspessart ist ein neu gegründetes, familiengeführtes Reinigungsunternehmen aus dem Landkreis Main-Spessart...</p>
   </section>  <section>
     <h2>Unsere Leistungen</h2>
+    <img src="https://images.unsplash.com/photo-1581579185169-022de3f12efb" alt="Leistungen" width="100%" style="border-radius: 12px;">
     <ul>
-      <li><strong>Bodenreinigung:</strong> Gründliche und streifenfreie Reinigung aller Bodenflächen in privaten Haushalten und gewerblichen Räumen.</li>
-      <li><strong>Fensterreinigung:</strong> Professionelle Reinigung der Glasflächen und Fassaden.</li>
-      <li><strong>Weitere Reinigungsservices:</strong> Büro- und Treppenhausreinigung, Fassadenpflege sowie Spezialreinigungen nach Bedarf.</li>
-      <li><strong>Flexibilität:</strong> Wahl zwischen eigenem oder gestelltem Reinigungsmaterial, individuelle Preisvorschläge auf Anfrage.</li>
+      <li><strong>Bodenreinigung:</strong> Gründliche und streifenfreie Reinigung...</li>
+      <li><strong>Fensterreinigung:</strong> Professionelle Reinigung der Glasflächen...</li>
+      <li><strong>Weitere Reinigungsservices:</strong> Büro-, Treppenhaus- und Spezialreinigungen.</li>
+      <li><strong>Flexibilität:</strong> Eigenes oder gestelltes Reinigungsmaterial, individuelle Preise.</li>
     </ul>
   </section>  <section>
     <h2>Warum wir?</h2>
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Warum wir" width="100%" style="border-radius: 12px;">
     <ul>
-      <li>Individuelle Betreuung: Jeder Auftrag ist einzigartig – wir hören zu und passen unseren Service genau an Ihre Wünsche an.</li>
-      <li>Zuverlässigkeit & Pünktlichkeit: Wir halten unsere Zusagen und sind genau dann da, wenn Sie uns brauchen.</li>
-      <li>Faire und transparente Kommunikation: Keine versteckten Kosten. Alles offen und ehrlich im Voraus.</li>
-      <li>Motivation und Sorgfalt: Wir geben 100 %, um unsere Qualität zu beweisen – mit Herz, Hand und Verstand.</li>
+      <li>Individuelle Betreuung...</li>
+      <li>Zuverlässigkeit & Pünktlichkeit...</li>
+      <li>Faire und transparente Kommunikation...</li>
+      <li>Motivation und Sorgfalt...</li>
     </ul>
   </section>  <section class="kontakt">
     <h2>Kontakt</h2>
-    <p>Telefon: <a href="tel:01781766657">0178 1766657</a></p>
+    <form action="https://formsubmit.co/xfire80@hotmail.com" method="POST">
+      <input type="text" name="name" placeholder="Ihr Name" required>
+      <input type="email" name="email" placeholder="Ihre E-Mail" required>
+      <textarea name="message" rows="5" placeholder="Ihre Nachricht..." required></textarea>
+      <button type="submit">Nachricht senden</button>
+    </form>
+    <p>Oder direkt anrufen: <a href="tel:01781766657">0178 1766657</a></p>
     <p>E-Mail: <a href="mailto:xfire80@hotmail.com">xfire80@hotmail.com</a></p>
-    <p>Oder nutzen Sie unser Kontaktformular auf der Website – wir melden uns schnellstmöglich bei Ihnen zurück!</p>
     <a class="whatsapp-button" href="https://wa.me/491781766657" target="_blank">Kontakt via WhatsApp</a>
   </section>  <div class="footer">
     &copy; 2025 MS Gebäudereinigung Main-Spessart. Alle Rechte vorbehalten.
