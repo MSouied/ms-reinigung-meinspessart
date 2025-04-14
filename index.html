@@ -3,116 +3,132 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MS Reinigung Mainspessart</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #f3f9fa;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f9fb;
       color: #333;
     }
     header {
-      background: linear-gradient(to right, #00c6ff, #0072ff);
-      color: white;
+      background: linear-gradient(to right, #0f9b8e, #00d4ff);
       text-align: center;
-      padding: 40px 20px;
+      padding: 2rem 1rem 1rem;
     }
     header img {
-      width: 80px;
-      border-radius: 50%;
-      margin-bottom: 10px;
+      width: 100px;
+      margin-bottom: 1rem;
     }
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
+    header h1 {
+      color: white;
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
     }
-    p.subtitle {
-      font-size: 1.1em;
-      margin-top: 10px;
+    header p {
+      color: white;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
     }
     section {
-      padding: 40px 20px;
+      padding: 2rem;
       max-width: 900px;
       margin: auto;
     }
     h2 {
+      color: #00777c;
       text-align: center;
-      margin-bottom: 40px;
-      color: #0072ff;
+      font-size: 2rem;
+      margin-bottom: 2rem;
     }
-    .service {
+    .card {
       background: white;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-      padding: 20px;
-      margin-bottom: 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
     }
-    .service video {
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card video {
       width: 100%;
-      border-radius: 12px;
-      margin-bottom: 15px;
+      border-radius: 15px;
+      margin-bottom: 1rem;
     }
-    footer {
-      background: #003366;
-      color: white;
-      text-align: center;
-      padding: 20px;
+    .card h3 {
+      margin: 0.5rem 0;
+      color: #003333;
+    }
+    .card p {
+      font-size: 1rem;
+      color: #555;
     }
     .whatsapp {
-      display: inline-block;
-      margin: 30px auto 0;
-      background: #25d366;
+      display: block;
+      width: fit-content;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: #25d366;
       color: white;
-      padding: 15px 30px;
-      font-size: 1.1em;
-      border-radius: 40px;
       text-decoration: none;
+      border-radius: 40px;
+      font-weight: bold;
+      font-size: 1.1rem;
       transition: background 0.3s;
     }
     .whatsapp:hover {
-      background: #1ebd58;
+      background-color: #1ebe57;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #003e4f;
+      color: white;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: white;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://media.giphy.com/media/U4q8QYjv1tzG9E5U8e/giphy.gif" alt="Logo" />
-    <h1>شركة تنظيف MS ماينسبيسارت</h1>
-    <p class="subtitle">الجودة والموثوقية لمنزلك أو عملك</p>
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmY5dWllZWhnNWw2YWdhdm85M3dzNmR5ZWdmcGFjc3ZsNjgyemM3OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1J9ur9t8mP5cXhvS/giphy.gif" alt="MS Logo" />
+    <h1>MS Reinigung Mainspessart</h1>
+    <p>Innovative Gebäudereinigung mit Fokus auf Qualität, Effizienz und Vertrauen</p>
   </header>  <section>
-    <h2>خدماتنا</h2><div class="service">
+    <h2>Unsere Dienstleistungen</h2><div class="card">
   <video autoplay muted loop playsinline src="https://cdn.coverr.co/videos/coverr-cleaning-window-3094/1080p.mp4"></video>
-  <h3>تنظيف الشقق</h3>
-  <p>تنظيف شامل لشقتك أو منزلك - مرن، مع أو بدون منتجات التنظيف التي يقدمها العميل.</p>
+  <h3>Wohnungsreinigung</h3>
+  <p>Gründliche Reinigung Ihrer Wohnung oder Ihres Hauses – flexibel, mit oder ohne Reinigungsmittel vom Kunden.</p>
 </div>
 
-<div class="service">
+<div class="card">
   <video autoplay muted loop playsinline src="https://cdn.coverr.co/videos/coverr-cleaning-desk-3092/1080p.mp4"></video>
-  <h3>تنظيف المكاتب والممارسات</h3>
-  <p>غرف نظيفة للعمل المركز أو استقبال المرضى - مصممة خصيصًا لتناسب احتياجاتك.</p>
+  <h3>Büro- & Praxisreinigung</h3>
+  <p>Saubere Räume für konzentriertes Arbeiten oder Patientenempfang – auf Wunsch bringen wir die Reinigungsmittel mit.</p>
 </div>
 
-<div class="service">
+<div class="card">
   <video autoplay muted loop playsinline src="https://cdn.coverr.co/videos/coverr-cleaning-window-4901/1080p.mp4"></video>
-  <h3>تنظيف النوافذ</h3>
-  <p>تنظيف النوافذ بدون خطوط وفقًا للمعايير المهنية والنتائج الدائمة.</p>
+  <h3>Fensterreinigung</h3>
+  <p>Glasklare Fenster für besten Ausblick – mit umweltfreundlichen Methoden.</p>
 </div>
 
-<div class="service">
+<div class="card">
   <video autoplay muted loop playsinline src="https://cdn.coverr.co/videos/coverr-cleaning-floor-4106/1080p.mp4"></video>
-  <h3>التنظيف النهائي بعد التجديد</h3>
-  <p>التنظيف النهائي بعد التجديد أو النقل - فعال ومرن ومُصمم ليتناسب مع رغباتك.</p>
+  <h3>Endreinigung nach Umbau</h3>
+  <p>Perfekter Abschluss für Ihre Renovierung oder Ihren Umzug – individuell angepasst an Ihre Wünsche.</p>
 </div>
 
-<a class="whatsapp" href="https://wa.me/491781766657?text=مرحبًا! أود الاستفسار عن خدمات التنظيف لديكم، شكرًا لكم." target="_blank">WhatsApp kontaktieren</a>
+<a class="whatsapp" href="https://wa.me/491781766657?text=Guten%20Tag!%20Ich%20interessiere%20mich%20f%C3%BCr%20Ihre%20Reinigungsdienste.%20K%C3%B6nnten%20Sie%20mir%20mehr%20Informationen%20geben?" target="_blank">
+  WhatsApp kontaktieren
+</a>
 
   </section>  <footer>
     <p>© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten</p>
-    <p>Kontakt: <a href="mailto:xfire80@hotmail.com" style="color: white;">xfire80@hotmail.com</a></p>
+    <p>Kontakt: <a href="mailto:xfire80@hotmail.com">xfire80@hotmail.com</a></p>
   </footer>
 </body>
 </html>
