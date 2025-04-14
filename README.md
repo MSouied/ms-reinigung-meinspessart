@@ -1,40 +1,35 @@
-MS Reinigung Mainspessart
+# MS Reinigung Mainspessart
 
-Willkommen bei der offiziellen Website unseres Unternehmens!
+**Willkommen auf der offiziellen Webseite unseres jungen Reinigungsunternehmens aus Main-Spessart.**
 
-Projektbeschreibung
+## Über uns
 
-Diese Website wurde professionell mit Unterstützung von künstlicher Intelligenz gestaltet. Ziel ist es, die Reinigungsfirma MS Reinigung Mainspessart modern, vertrauenswürdig und kundenfreundlich online zu präsentieren.
+MS Reinigung Mainspessart bietet innovative, zuverlässige und flexible Reinigungsdienste für Privat- und Geschäftskunden. Unser Fokus liegt auf:
 
-Enthaltene Funktionen
+- Qualität & Effizienz  
+- Vertrauen & Kundenzufriedenheit  
+- Umweltfreundlichen Methoden  
+- Flexibilität je nach Kundenwunsch (mit oder ohne Reinigungsmittel)
 
-Animiertes Firmenlogo im Kopfbereich (GIF)
+## Unsere Dienstleistungen
 
-Dienstleistungsbeschreibungen mit kurzen Hintergrundvideos
+- **Wohnungsreinigung**  
+  Gründliche Reinigung Ihrer Wohnung oder Ihres Hauses – flexibel, mit oder ohne Reinigungsmittel vom Kunden.
 
-WhatsApp-Integration mit vordefinierter Nachricht
+- **Büro- & Praxisreinigung**  
+  Saubere Räume für konzentriertes Arbeiten oder Patientenempfang – auf Wunsch bringen wir die Reinigungsmittel mit.
 
-Farblich abgestimmtes Design, inspiriert von führenden Reinigungsunternehmen
+- **Fensterreinigung**  
+  Glasklare Fenster mit streifenfreier Reinigung und umweltfreundlichen Methoden.
 
-Mobilfreundliches Layout für alle Endgeräte
+- **Endreinigung nach Umbau**  
+  Perfekte Reinigung nach Renovierungen oder Umzügen – individuell angepasst an Ihre Wünsche.
 
+## Kontakt
 
-Medienrechte
+**E-Mail:** xfire80@hotmail.com  
+**WhatsApp Direktkontakt:** [Jetzt per WhatsApp kontaktieren](https://wa.me/491781766657?text=Guten%20Tag!%20Ich%20interessiere%20mich%20f%C3%BCr%20Ihre%20Reinigungsdienste.%20K%C3%B6nnten%20Sie%20mir%20mehr%20Informationen%20geben?)
 
-Alle Videos und Icons stammen aus frei verwendbaren Quellen wie:
+---
 
-coverr.co (Videos)
-
-Giphy.com (Logo-Animation)
-
-
-Es wurden keine urheberrechtlich geschützten Materialien ohne Erlaubnis verwendet.
-
-Kontakt
-
-Für Rückfragen oder weitere Informationen:
-
-E-Mail: xfire80@hotmail.com
-
-© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten.
-
+© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten
