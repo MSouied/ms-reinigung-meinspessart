@@ -46,10 +46,12 @@
       flex-wrap: wrap;
       gap: 1rem;
       margin-top: 1rem;
+      justify-content: center;
     }
     .gallery img {
       width: 100%;
       max-width: 300px;
+      height: 200px;
       border-radius: 8px;
       object-fit: cover;
     }
@@ -132,9 +134,9 @@
   </ul>
 
   <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1598514982452-58d353ad87d3" alt="Office Cleaning">
-    <img src="https://images.unsplash.com/photo-1616627781512-978fdfa48eb1" alt="Window Cleaning">
-    <img src="https://images.unsplash.com/photo-1616627781919-d13e558b69a9" alt="Floor Cleaning">
+    <img src="https://images.unsplash.com/photo-1598514982452-58d353ad87d3?auto=format&fit=crop&w=800&q=80" alt="Office Cleaning">
+    <img src="https://images.unsplash.com/photo-1616627781512-978fdfa48eb1?auto=format&fit=crop&w=800&q=80" alt="Window Cleaning">
+    <img src="https://images.unsplash.com/photo-1616627781919-d13e558b69a9?auto=format&fit=crop&w=800&q=80" alt="Floor Cleaning">
   </div>
 
   <div class="cta">
@@ -145,7 +147,7 @@
 <section id="contact">
   <h2>Kontaktformular</h2>
   <p>Nutzen Sie unser Formular für Ihre Anfrage. Wir melden uns zeitnah bei Ihnen zurück.</p>
-  <form action="https://formspree.io/f/mnqepnkl" method="POST">
+  <form action="mailto:xfire80@hotmail.com" method="POST" enctype="text/plain">
     <input type="text" name="name" placeholder="Ihr Name" required />
     <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required />
     <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
