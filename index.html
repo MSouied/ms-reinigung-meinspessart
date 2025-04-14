@@ -3,40 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MS Gebäudereinigung</title>
+  <title>MS Reinigung Mainspessart</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10444/10444396.png" />
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f5f5f5;
+      font-family: 'Tahoma', sans-serif;
       margin: 0;
       padding: 0;
-      direction: rtl;
+      background-color: #f5f5f5;
+      color: #222;
     }
     header {
       background-color: #003049;
       color: white;
-      padding: 2rem;
+      padding: 1.5rem;
       text-align: center;
     }
+    header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 2rem auto;
       background: white;
       padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
     }
-    h1, h2 {
+    h2 {
       color: #003049;
+      margin-bottom: 1rem;
     }
     ul {
       padding-right: 1.5rem;
     }
-    .button {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .cta {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .cta a {
       background-color: #d62828;
       color: white;
+      padding: 0.8rem 1.5rem;
       text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
@@ -45,18 +74,17 @@
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      margin-top: 1rem;
     }
     input, textarea {
-      padding: 0.75rem;
+      padding: 0.8rem;
+      font-size: 1rem;
       border: 1px solid #ccc;
       border-radius: 6px;
-      font-size: 1rem;
     }
     button {
       background-color: #003049;
       color: white;
-      padding: 0.75rem;
+      padding: 0.8rem;
       border: none;
       border-radius: 6px;
       font-weight: bold;
@@ -64,49 +92,80 @@
     }
     footer {
       text-align: center;
-      color: #888;
       padding: 2rem;
       font-size: 0.9rem;
+      color: #777;
+    }
+    .whatsapp {
+      position: fixed;
+      left: 15px;
+      bottom: 15px;
+      background: #25D366;
+      padding: 12px 15px;
+      border-radius: 50px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      z-index: 999;
+    }
+    .whatsapp img {
+      width: 20px;
+      margin-left: 8px;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>MS Gebäudereinigung</h1>
-  <p>شركة تنظيف موثوقة في منطقة Main-Spessart</p>
+  <img src="https://ms-reinigung-mainspessart.vercel.app/logo.png" alt="MS Logo" />
+  <h1>MS Reinigung Mainspessart</h1>
+  <p>خدمة تنظيف احترافية للمنازل، المكاتب، والعيادات في منطقتك</p>
 </header>
 
 <section>
   <h2>من نحن</h2>
-  <p>نحن شركة ألمانية جديدة تقدم خدمات تنظيف احترافية للمنازل والمكاتب والعيادات والمباني التجارية في منطقة مين شبسارت. نتميز بالجودة، والموثوقية، والأسعار المناسبة.</p>
+  <p>نحن شركة تنظيف جديدة مقرها في Main-Spessart، نُقدم خدمات نظافة موثوقة ومهنية للأفراد والشركات. نضمن الجودة، الدقة، والمرونة في التعامل مع كل عميل.</p>
 
   <h2>خدماتنا</h2>
   <ul>
-    <li>تنظيف المنازل والمداخل</li>
-    <li>تنظيف النوافذ والزجاج</li>
+    <li>تنظيف الشقق والمنازل الخاصة</li>
     <li>تنظيف المكاتب والعيادات</li>
-    <li>تنظيف بعد أعمال البناء أو الترميم</li>
+    <li>تنظيف النوافذ والزجاج</li>
+    <li>تنظيف بعد أعمال البناء</li>
   </ul>
 
-  <div style="text-align: center; margin-top: 1.5rem;">
-    <a href="#kontakt" class="button">اطلب عرض سعر الآن</a>
+  <div class="gallery">
+    <img src="https://source.unsplash.com/300x200/?cleaning" alt="cleaning1">
+    <img src="https://source.unsplash.com/300x200/?office-cleaning" alt="cleaning2">
+    <img src="https://source.unsplash.com/300x200/?window-cleaning" alt="cleaning3">
+  </div>
+
+  <div class="cta">
+    <a href="#kontakt">تواصل معنا الآن</a>
   </div>
 </section>
 
 <section id="kontakt">
-  <h2>نموذج الاتصال</h2>
-  <p>هل ترغب في التواصل معنا؟ املأ النموذج وسنعود إليك بأقرب وقت.</p>
+  <h2>نموذج التواصل</h2>
+  <p>هل لديك استفسار أو ترغب بعرض سعر؟ املأ النموذج وسنعاود الاتصال بك قريبًا:</p>
   <form action="https://formspree.io/f/mnqepnkl" method="POST">
     <input type="text" name="name" placeholder="اسمك" required />
     <input type="email" name="email" placeholder="بريدك الإلكتروني" required />
     <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
-    <button type="submit">إرسال الرسالة</button>
+    <button type="submit">إرسال</button>
   </form>
 </section>
 
+<a class="whatsapp" href="https://wa.me/4915123456789?text=مرحبًا، أود الاستفسار عن خدمات التنظيف لديكم" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+  واتساب مباشر
+</a>
+
 <footer>
-  &copy; 2025 شركة MS لتنظيف المباني – جميع الحقوق محفوظة
+  &copy; 2025 شركة MS Reinigung Mainspessart – جميع الحقوق محفوظة
 </footer>
 
 </body>
