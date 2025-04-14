@@ -3,99 +3,143 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MS Reinigung Mainspessart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
-      background: #f7fbfd;
-      color: #222;
+      padding: 0;
+      background: #f9fafa;
+      color: #333;
     }
     header {
-      background: linear-gradient(to right, #0f95c4, #00c6a7);
-      color: white;
-      padding: 40px 20px;
+      background: linear-gradient(120deg, #00aaff, #007788);
+      padding: 3rem 1rem;
       text-align: center;
+      color: white;
     }
-    h1 {
-      font-size: 36px;
+    header h1 {
+      font-size: 2.5rem;
       margin: 0;
     }
-    h2 {
-      font-size: 24px;
-      margin-top: 10px;
+    header p {
+      font-size: 1.2rem;
     }
     section {
-      padding: 40px 20px;
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
       text-align: center;
+      color: #007788;
+    }
+    .services, .faq, .testimonials, .pricing {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
     }
     .card {
       background: white;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin: 20px auto;
-      max-width: 500px;
-      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      text-align: center;
     }
     .card img {
       width: 100%;
-      border-radius: 12px;
+      border-radius: 10px;
+      margin-bottom: 1rem;
     }
-    .whatsapp {
-      display: inline-block;
-      background: #25d366;
+    .contact {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .contact a {
+      background: #25D366;
       color: white;
-      padding: 12px 20px;
-      border-radius: 30px;
-      font-weight: bold;
+      padding: 0.8rem 1.5rem;
       text-decoration: none;
-      margin: 30px auto 10px;
-      transition: background 0.3s ease;
-    }
-    .whatsapp:hover {
-      background: #1ebd5a;
+      border-radius: 8px;
+      font-weight: bold;
     }
     footer {
-      background: #003d5c;
+      background: #007788;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 1.5rem;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>MS Reinigung Mainspessart</h1>
-    <h2>Innovative Gebäudereinigung mit Herz und Qualität</h2>
+    <p>Innovative Gebäudereinigung mit Fokus auf Qualität, Effizienz und Vertrauen</p>
   </header>  <section>
-    <h2>Unsere Dienstleistungen</h2><div class="card">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2UxcGcwN3diZDB2bWI2c3kycTd0Ynh6ZWdpNzZuaHh2czBqNWljayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Y4XcCxU3PCadWdQ1TL/giphy.gif" alt="Wohnungsreinigung" />
-  <h3>Wohnungsreinigung</h3>
-  <p>Gründliche und zuverlässige Reinigung für private Haushalte.</p>
-</div>
-
-<div class="card">
-  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Büroreinigung" />
-  <h3>Büro- & Praxisreinigung</h3>
-  <p>Sauberkeit für produktive Arbeitsumgebungen und Kundenbereiche.</p>
-</div>
-
-<div class="card">
-  <img src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif" alt="Fensterreinigung" />
-  <h3>Fensterreinigung</h3>
-  <p>Streifenfreie Sauberkeit für Fenster, Glasflächen und Fassaden.</p>
-</div>
-
-<div class="card">
-  <img src="https://media.giphy.com/media/iJd4AO8MiT9hI/giphy.gif" alt="Bauendreinigung" />
-  <h3>Bauendreinigung</h3>
-  <p>Gründliche Nachreinigung nach Umbau-, Neubau- oder Sanierungsarbeiten.</p>
-</div>
-
-<a class="whatsapp" href="https://wa.me/491781766657" target="_blank">Jetzt per WhatsApp kontaktieren</a>
-
+    <h2>Unsere Dienstleistungen</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzE4ZTI0bTUyMjY4aWJtaWgxNWdndTBvbHJ2N2ptbm53ZTF6YzFmcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PLkgWDm6AYefDDiQ6p/giphy.gif" alt="Wohnungsreinigung">
+        <h3>Wohnungsreinigung</h3>
+        <p>Gründliche und zuverlässige Reinigung für private Haushalte.</p>
+      </div>
+      <div class="card">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3Vta3M4a3NjdTI0bm1sY3EwZHRoaHZuZWZydTF1eXhrb2J5cjhxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ga7nZK3wM1IWaVoWcs/giphy.gif" alt="Büroreinigung">
+        <h3>Büro- & Praxisreinigung</h3>
+        <p>Sauberkeit für produktive Arbeitsumgebungen und Kundenbereiche.</p>
+      </div>
+      <div class="card">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGZ0cnJ3YWU2b2NtcXFmcXg4amw3eDhhd3doOHgwbGV1N3c2dnZyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3vR3TBslr8RqN5Hq/giphy.gif" alt="Fensterreinigung">
+        <h3>Fensterreinigung</h3>
+        <p>Streifenfreie Fenster für beste Sicht und Glanz.</p>
+      </div>
+      <div class="card">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxndnRnbWk0amJvMzRmNGt2ejRjd3RwZ3hzazNrb3JpZWpiMGQzYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ov9jNziFTMfzSumAw/giphy.gif" alt="Bauendreinigung">
+        <h3>Bauendreinigung</h3>
+        <p>Sauberer Abschluss Ihrer Bau- oder Renovierungsprojekte.</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Preise</h2>
+    <div class="pricing">
+      <div class="card">
+        <h3>Privathaushalt</h3>
+        <p>Ab 25€ pro Stunde</p>
+      </div>
+      <div class="card">
+        <h3>Gewerblich</h3>
+        <p>Individuelle Angebote auf Anfrage</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Was Kunden sagen</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"Sehr professionell und freundlich. Meine Wohnung war blitzsauber!" – Anna M.</p>
+      </div>
+      <div class="card">
+        <p>"Zuverlässiger Service und top Qualität. Immer wieder gern!" – Markus K.</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Häufige Fragen</h2>
+    <div class="faq">
+      <div class="card">
+        <h3>Wie buche ich einen Termin?</h3>
+        <p>Kontaktieren Sie uns einfach per WhatsApp oder E-Mail.</p>
+      </div>
+      <div class="card">
+        <h3>Bringen Sie Reinigungsmittel mit?</h3>
+        <p>Ja, wir bringen alles Notwendige mit.</p>
+      </div>
+    </div>
+  </section>  <section class="contact">
+    <a href="https://wa.me/491781766657" target="_blank">Jetzt per WhatsApp kontaktieren</a>
   </section>  <footer>
     <p>&copy; 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten</p>
-    <p>Kontakt: <a href="mailto:xfire80@hotmail.com" style="color: #00c6a7;">xfire80@hotmail.com</a></p>
+    <p>Kontakt: <a href="mailto:xfire80@hotmail.com" style="color: #fff; text-decoration: underline;">xfire80@hotmail.com</a></p>
   </footer>
 </body>
 </html>
