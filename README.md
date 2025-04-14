@@ -1,31 +1,40 @@
-# MS Reinigung Mainspessart
+MS Reinigung Mainspessart
 
 Willkommen bei der offiziellen Website unseres Unternehmens!
 
-## Projektbeschreibung
+Projektbeschreibung
 
-Diese Website wurde professionell mit Unterstützung von künstlicher Intelligenz gestaltet.  
-Ziel ist es, die Reinigungsfirma **MS Reinigung Mainspessart** modern, zuverlässig und kundenfreundlich online zu präsentieren.
+Diese Website wurde professionell mit Unterstützung von künstlicher Intelligenz gestaltet. Ziel ist es, die Reinigungsfirma MS Reinigung Mainspessart modern, vertrauenswürdig und kundenfreundlich online zu präsentieren.
 
-## Enthaltene Funktionen
+Enthaltene Funktionen
 
-- Animiertes Logo im Kopfbereich
-- Dienstleistungsbeschreibung mit kurzen Videos
-- WhatsApp-Integration mit vordefinierter Nachricht
-- Sauberes, mobilfreundliches Layout
-- Farblich abgestimmtes Design in MS-Farben
+Animiertes Firmenlogo im Kopfbereich (GIF)
 
-## Medienrechte
+Dienstleistungsbeschreibungen mit kurzen Hintergrundvideos
+
+WhatsApp-Integration mit vordefinierter Nachricht
+
+Farblich abgestimmtes Design, inspiriert von führenden Reinigungsunternehmen
+
+Mobilfreundliches Layout für alle Endgeräte
+
+
+Medienrechte
 
 Alle Videos und Icons stammen aus frei verwendbaren Quellen wie:
-- [coverr.co](https://coverr.co) (Videos)
-- [Giphy.com](https://giphy.com) (Logo-Animation)
 
-Es wurden **keine urheberrechtlich geschützten Materialien** verwendet.
+coverr.co (Videos)
 
-## Kontakt
+Giphy.com (Logo-Animation)
 
-Für Rückfragen oder Anpassungen:
 
-**E-Mail:** xfire80@hotmail.com  
-© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten
+Es wurden keine urheberrechtlich geschützten Materialien ohne Erlaubnis verwendet.
+
+Kontakt
+
+Für Rückfragen oder weitere Informationen:
+
+E-Mail: xfire80@hotmail.com
+
+© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten.
+
