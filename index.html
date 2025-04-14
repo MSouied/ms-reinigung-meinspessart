@@ -1,168 +1,121 @@
-<!DOCTYPE html>
-<html lang="de" dir="ltr">
+<!DOCTYPE html><html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MS Reinigung Mainspessart</title>
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10444/10444396.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f9ff;
       color: #222;
     }
     header {
-      background-color: #003049;
+      background: linear-gradient(to right, #1f7a8c, #00b4d8);
       color: white;
       padding: 2rem;
       text-align: center;
     }
     header h1 {
-      margin: 0;
-      font-size: 2rem;
+      margin: 0.2rem 0;
+      font-size: 2.5rem;
     }
     header p {
-      margin-top: 0.5rem;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     section {
-      max-width: 1000px;
-      margin: 2rem auto;
-      background: white;
       padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      max-width: 1000px;
+      margin: auto;
     }
-    h2 {
-      color: #003049;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    .gallery {
+    .features {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
-      margin-top: 1rem;
+      gap: 2rem;
       justify-content: center;
     }
-    .gallery img {
+    .feature {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .feature:hover {
+      transform: scale(1.05);
+    }
+    .feature img {
       width: 100%;
-      max-width: 300px;
-      height: 200px;
-      border-radius: 8px;
+      height: 180px;
       object-fit: cover;
+      border-radius: 8px;
+    }
+    .feature h3 {
+      margin-top: 1rem;
     }
     .cta {
       text-align: center;
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
     .cta a {
-      background-color: #d62828;
+      display: inline-block;
+      background: #00b894;
       color: white;
       padding: 0.8rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 25px;
       text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
+      transition: background 0.3s ease;
     }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-    input, textarea {
-      padding: 0.8rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 1rem;
-    }
-    button {
-      background-color: #003049;
-      color: white;
-      padding: 0.8rem;
-      border: none;
-      border-radius: 6px;
-      font-weight: bold;
-      cursor: pointer;
+    .cta a:hover {
+      background: #019875;
     }
     footer {
       text-align: center;
       padding: 2rem;
-      font-size: 0.9rem;
-      color: #777;
-    }
-    .whatsapp {
-      position: fixed;
-      left: 15px;
-      bottom: 15px;
-      background: #25D366;
-      padding: 12px 15px;
-      border-radius: 50px;
+      background: #1f7a8c;
       color: white;
-      text-decoration: none;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      font-size: 16px;
-      z-index: 999;
-    }
-    .whatsapp img {
-      width: 20px;
-      margin-left: 8px;
+      margin-top: 4rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>MS Reinigung Mainspessart</h1>
+    <p>Professionelle Reinigungsdienste mit Herz und Qualität</p>
+  </header>  <section>
+    <h2 style="text-align:center">Unsere Leistungen</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="https://cdn.pixabay.com/photo/2017/06/20/18/37/cleaning-2429323_1280.jpg" alt="Wohnungsreinigung">
+        <h3>Wohnungsreinigung</h3>
+        <p>Gründliche Reinigung für Ihre Wohnung oder Ihr Zuhause.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn.pixabay.com/photo/2018/03/01/20/51/cleaning-3196336_1280.jpg" alt="Büroreinigung">
+        <h3>Büro- & Praxisreinigung</h3>
+        <p>Saubere Arbeitsumgebung für konzentriertes Arbeiten.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn.pixabay.com/photo/2018/01/06/18/47/glass-3062234_1280.jpg" alt="Fensterreinigung">
+        <h3>Fensterreinigung</h3>
+        <p>Kristallklare Fenster für den besten Ausblick.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn.pixabay.com/photo/2017/03/12/13/41/cleaning-2137087_1280.jpg" alt="Bauendreinigung">
+        <h3>Bauendreinigung</h3>
+        <p>Perfekter Abschluss für Ihre Baustelle oder Renovierung.</p>
+      </div>
+    </div><div class="cta">
+  <a href="https://wa.me/491781766657" target="_blank"><i class="fab fa-whatsapp"></i> Jetzt per WhatsApp kontaktieren</a>
+</div>
 
-<header>
-  <h1>MS Reinigung Mainspessart</h1>
-  <p>Professionelle Reinigungsdienste für Wohnungen, Büros und Praxen</p>
-</header>
-
-<section>
-  <h2>Über uns</h2>
-  <p>Wir sind ein junges Reinigungsunternehmen mit Sitz in Main-Spessart. Unsere Priorität liegt auf Sauberkeit, Zuverlässigkeit und Kundenzufriedenheit.</p>
-
-  <h2>Unsere Leistungen</h2>
-  <ul>
-    <li>Wohnungs- & Hausreinigung</li>
-    <li>Büro- & Praxisreinigung</li>
-    <li>Fenster- & Glasreinigung</li>
-    <li>Bauendreinigung</li>
-  </ul>
-
-  <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1598514982452-58d353ad87d3?auto=format&fit=crop&w=800&q=80" alt="Office Cleaning">
-    <img src="https://images.unsplash.com/photo-1616627781512-978fdfa48eb1?auto=format&fit=crop&w=800&q=80" alt="Window Cleaning">
-    <img src="https://images.unsplash.com/photo-1616627781919-d13e558b69a9?auto=format&fit=crop&w=800&q=80" alt="Floor Cleaning">
-  </div>
-
-  <div class="cta">
-    <a href="#contact">Kontakt aufnehmen</a>
-  </div>
-</section>
-
-<section id="contact">
-  <h2>Kontaktformular</h2>
-  <p>Nutzen Sie unser Formular für Ihre Anfrage. Wir melden uns zeitnah bei Ihnen zurück.</p>
-  <form action="mailto:xfire80@hotmail.com" method="POST" enctype="text/plain">
-    <input type="text" name="name" placeholder="Ihr Name" required />
-    <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required />
-    <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
-    <button type="submit">Absenden</button>
-  </form>
-</section>
-
-<a class="whatsapp" href="https://wa.me/491781766657?text=Guten Tag, ich interessiere mich für Ihre Reinigungsdienste." target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
-  WhatsApp
-</a>
-
-<footer>
-  &copy; 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten
-</footer>
-
+  </section>  <footer>
+    &copy; 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten
+    <br />Kontakt: <a href="mailto:xfire80@hotmail.com" style="color: #fff; text-decoration: underline;">xfire80@hotmail.com</a>
+  </footer>
 </body>
 </html>
