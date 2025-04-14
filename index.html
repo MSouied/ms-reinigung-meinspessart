@@ -46,12 +46,8 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease;
     }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card video {
+    .card img {
       width: 100%;
       border-radius: 15px;
       margin-bottom: 1rem;
@@ -75,10 +71,6 @@
       border-radius: 40px;
       font-weight: bold;
       font-size: 1.1rem;
-      transition: background 0.3s;
-    }
-    .whatsapp:hover {
-      background-color: #1ebe57;
     }
     form {
       background: white;
@@ -103,6 +95,12 @@
       font-size: 1rem;
       cursor: pointer;
     }
+    .confirmation {
+      color: green;
+      text-align: center;
+      margin-top: 1rem;
+      display: none;
+    }
     footer {
       text-align: center;
       padding: 2rem;
@@ -117,49 +115,53 @@
 </head>
 <body>
   <header>
-    <img src="https://i.ibb.co/QbQvVg2/clean-logo.gif" alt="MS Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Cleaning_Icon.svg/120px-Cleaning_Icon.svg.png" alt="MS Logo">
     <h1>MS Reinigung Mainspessart</h1>
     <p>Innovative Gebäudereinigung mit Fokus auf Qualität, Effizienz und Vertrauen</p>
   </header>  <section>
     <h2>Unsere Dienstleistungen</h2><div class="card">
-  <video autoplay muted loop playsinline src="https://cdn.pixabay.com/video/2023/12/28/198238-894230207_tiny.mp4"></video>
+  <img src="https://cdn.pixabay.com/photo/2017/09/04/18/42/cleaning-2716464_1280.jpg" alt="Wohnungsreinigung">
   <h3>Wohnungsreinigung</h3>
   <p>Gründliche Reinigung Ihrer Wohnung oder Ihres Hauses – flexibel, mit oder ohne Reinigungsmittel vom Kunden.</p>
 </div>
 
 <div class="card">
-  <video autoplay muted loop playsinline src="https://cdn.pixabay.com/video/2023/07/17/173615-848688314_tiny.mp4"></video>
+  <img src="https://cdn.pixabay.com/photo/2016/03/27/22/22/cleaning-1280572_1280.jpg" alt="Büroreinigung">
   <h3>Büro- & Praxisreinigung</h3>
   <p>Saubere Räume für konzentriertes Arbeiten oder Patientenempfang – auf Wunsch bringen wir die Reinigungsmittel mit.</p>
 </div>
 
 <div class="card">
-  <video autoplay muted loop playsinline src="https://cdn.pixabay.com/video/2023/03/28/158541-814699108_tiny.mp4"></video>
+  <img src="https://cdn.pixabay.com/photo/2020/05/12/17/27/cleaning-5160631_1280.jpg" alt="Fensterreinigung">
   <h3>Fensterreinigung</h3>
   <p>Glasklare Fenster für besten Ausblick – mit umweltfreundlichen Methoden.</p>
 </div>
 
 <div class="card">
-  <video autoplay muted loop playsinline src="https://cdn.pixabay.com/video/2023/01/04/145191-794132274_tiny.mp4"></video>
+  <img src="https://cdn.pixabay.com/photo/2021/11/10/07/46/floor-6782957_1280.jpg" alt="Endreinigung">
   <h3>Endreinigung nach Umbau</h3>
   <p>Perfekter Abschluss für Ihre Renovierung oder Ihren Umzug – individuell angepasst an Ihre Wünsche.</p>
 </div>
 
-<a class="whatsapp" href="https://wa.me/491781766657?text=Guten%20Tag!%20Ich%20interessiere%20mich%20f%C3%BCr%20Ihre%20Reinigungsdienste.%20K%C3%B6nnten%20Sie%20mir%20mehr%20Informationen%20geben?" target="_blank">
-  WhatsApp kontaktieren
-</a>
+<a class="whatsapp" href="https://wa.me/491781766657?text=Guten%20Tag!%20Ich%20interessiere%20mich%20f%C3%BCr%20Ihre%20Reinigungsdienste." target="_blank">WhatsApp kontaktieren</a>
 
   </section>  <section>
     <h2>Fordern Sie ein Angebot an</h2>
-    <form action="https://formspree.io/f/mgegrryv" method="POST">
+    <form id="contactForm" action="https://formspree.io/f/mgegrryv" method="POST">
       <input type="text" name="name" placeholder="Ihr Name" required>
       <input type="email" name="email" placeholder="Ihre E-Mail" required>
       <textarea name="message" rows="5" placeholder="Ihre Nachricht oder Anfrage" required></textarea>
       <button type="submit">Anfrage senden</button>
+      <div id="formMessage" class="confirmation">Vielen Dank! Ihre Nachricht wurde gesendet.</div>
     </form>
   </section>  <footer>
     <p>© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten</p>
     <p>Kontakt: <a href="mailto:xfire80@hotmail.com">xfire80@hotmail.com</a></p>
-  </footer>
-</body>
+  </footer>  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      setTimeout(() => {
+        document.getElementById('formMessage').style.display = 'block';
+      }, 500);
+    });
+  </script></body>
 </html>
