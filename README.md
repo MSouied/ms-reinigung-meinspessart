@@ -1,15 +1,10 @@
 # MS Reinigung Mainspessart
 
-**Willkommen auf der offiziellen Webseite unseres jungen Reinigungsunternehmens aus Main-Spessart.**
+Willkommen bei der offiziellen Website von **MS Reinigung Mainspessart**, Ihrem zuverlässigen Partner für professionelle Gebäudereinigung in der Region Main-Spessart.
 
 ## Über uns
 
-MS Reinigung Mainspessart bietet innovative, zuverlässige und flexible Reinigungsdienste für Privat- und Geschäftskunden. Unser Fokus liegt auf:
-
-- Qualität & Effizienz  
-- Vertrauen & Kundenzufriedenheit  
-- Umweltfreundlichen Methoden  
-- Flexibilität je nach Kundenwunsch (mit oder ohne Reinigungsmittel)
+**MS Reinigung Mainspessart** ist ein junges, engagiertes Reinigungsunternehmen, das Wert auf Qualität, Effizienz und Vertrauen legt. Unsere Reinigungsdienste sind flexibel, kundenorientiert und individuell anpassbar.
 
 ## Unsere Dienstleistungen
 
@@ -17,19 +12,23 @@ MS Reinigung Mainspessart bietet innovative, zuverlässige und flexible Reinigun
   Gründliche Reinigung Ihrer Wohnung oder Ihres Hauses – flexibel, mit oder ohne Reinigungsmittel vom Kunden.
 
 - **Büro- & Praxisreinigung**  
-  Saubere Räume für konzentriertes Arbeiten oder Patientenempfang – auf Wunsch bringen wir die Reinigungsmittel mit.
+  Saubere Arbeitsräume und Empfangsbereiche – auf Wunsch mit Reinigungsmitteln von uns.
 
 - **Fensterreinigung**  
-  Glasklare Fenster mit streifenfreier Reinigung und umweltfreundlichen Methoden.
+  Streifenfreie Sauberkeit für Fenster, Glasflächen und Fassaden – umweltfreundlich.
 
 - **Endreinigung nach Umbau**  
-  Perfekte Reinigung nach Renovierungen oder Umzügen – individuell angepasst an Ihre Wünsche.
+  Perfekter Abschluss für Ihre Renovierung oder Ihren Umzug – individuell angepasst.
 
-## Kontakt
+## Kontaktmöglichkeiten
 
-**E-Mail:** xfire80@hotmail.com  
-**WhatsApp Direktkontakt:** [Jetzt per WhatsApp kontaktieren](https://wa.me/491781766657?text=Guten%20Tag!%20Ich%20interessiere%20mich%20f%C3%BCr%20Ihre%20Reinigungsdienste.%20K%C3%B6nnten%20Sie%20mir%20mehr%20Informationen%20geben?)
+- **WhatsApp Direktnachricht:**  
+  [Jetzt über WhatsApp kontaktieren](https://wa.me/491781766657?text=Guten%20Tag!%20Ich%20interessiere%20mich%20für%20Ihre%20Reinigungsdienste.%20Könnten%20Sie%20mir%20mehr%20Informationen%20geben?)
 
----
+- **E-Mail:**  
+  xfire80@hotmail.com
 
-© 2025 MS Reinigung Mainspessart – Alle Rechte vorbehalten
+## Impressum
+
+© 2025 MS Reinigung Mainspessart  
+Alle Rechte vorbehalten.
